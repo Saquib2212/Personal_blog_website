@@ -1,0 +1,58 @@
+
+#header{
+    display:flex;
+    grid-area:hr;
+    background-color: wheat;
+    display:flex;
+    padding:10px;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    font-weight: lighter;
+    
+}
+
+#title{
+    font-size:medium;
+	text-align: left;
+	margin-left: 0;
+	font-weight: 700;
+	color:black;;
+    justify-content: "space-between";
+    text-align: center;
+    text-decoration: solid;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size:larger;
+    flex-flow: row nowrap;
+}
+
+.home{
+    float:right;
+}
+li{
+    float:right;
+    list-style-type: none;
+    padding: 20px;
+
+}
+
+#blog{
+    display: flex;
+    grid-area: hr;
+    text-align: center;
+    text-rendering: auto;
+    flex-direction: row;
+}
+#maintitle{
+    margin: 0;
+    padding: 5px;
+}
+#author{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

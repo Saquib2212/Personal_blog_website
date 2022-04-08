@@ -1,0 +1,40 @@
+#footer{
+	grid-area: ft;
+	display: flex;
+	flex-direction: column;
+	height: 40px;
+	color: rgb(19, 17, 13);
+	padding-top: 5px;
+	text-align: center;
+	background-color:wheat;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding:30px;
+    font-weight: bolder;
+
+}
+.youtubeimage{
+	opacity: 0.9;
+	width: 30px;
+	height: 30px;
+	margin: auto 10px;
+
+}
+.facebookimage{
+	opacity: 0.8;
+	width: 30px;
+	height: 30px;
+	margin: auto 10px;
+
+}
+.facebookimage:hover {
+
+	opacity: 0.5;
+}
+
+.youtubeimage:hover {
+
+    opacity: 0.5;
+
+}

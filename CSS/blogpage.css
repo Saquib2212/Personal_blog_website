@@ -1,0 +1,89 @@
+@import url("header.css");
+@import url("footer.css");
+
+
+.container{
+    display:grid;
+    background-color: rgb(248, 243, 238);
+    width:100%;
+    height:auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto 100px;
+    row-gap: 10px;
+    column-gap: 20px;
+    grid-template-areas:
+    "hr hr"
+    "cn cn"
+    "cd cd"
+    "cd cd"
+    "ft ft";
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media(min-width: 1025px){
+    .container{
+        display:grid;
+        background-color: rgb(248, 243, 238);
+        width:100%;
+        height:auto;
+        grid-template-columns: 1fr 1fr 1fr;
+       /* grid-template-rows:repeat(4,1fr)*/
+        grid-template-rows: auto auto auto 100px;
+        row-gap: 10px;
+        column-gap: 20px;
+        grid-template-areas:
+        "hr hr hr"
+        "cd cd cn"
+        "cd cd cn"
+        "ft ft ft";
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+#blogcontent{
+    display:flex;
+    flex-direction: column;
+    grid-area: cd;
+    background-color: thistle;
+}
+
+figure{
+    margin: 10px;
+    padding: 5px;
+}
+
+.images{
+    border-radius: 40px;
+
+}
+p{
+    text-align: center;
+    text-shadow: wheat;
+    font-size: normal;
+    justify-content: center;
+    color:#000;
+}
+h2,
+h3{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
+    text-decoration: underline;
+
+}
+#blogauthor{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    justify-content:first baseline;
+    text-align: center;
+    background-color: rgb(127, 202, 196);
+    grid-area: cn;
+
+}

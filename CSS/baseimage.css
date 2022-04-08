@@ -1,0 +1,31 @@
+#base1
+{
+    grid-area:b1;
+    width:100%;
+    height:auto;
+    background-image: url("Images/gateway-of-india.webp");
+    display:flex;
+    padding:5px;
+    border-radius: 30px;
+    image-rendering: auto;
+    image-orientation:auto;
+    justify-content: center;
+    background-position: center;
+}
+#base2
+{
+    grid-area:c1;
+    background-color:red;
+    width:100%;
+    height:auto;
+    background-image: url("Images/mumbai.jpg");
+    background-position: center;
+    display:flex;
+    padding:5px;
+    border-radius: 30px;
+    image-rendering: auto;
+    image-orientation:auto;
+    justify-content: center;
+    
+
+}
